@@ -1,8 +1,6 @@
-﻿using System.Web.Routing;
-using DotNetNuke.Web.Api;
-using System;
+﻿using DotNetNuke.Web.Api;
 
-namespace MyDnn.VisitorsOnline.App_Start
+namespace MyDnn.VisitorsOnline
 {
     public class RouteMapper : IServiceRouteMapper
     {

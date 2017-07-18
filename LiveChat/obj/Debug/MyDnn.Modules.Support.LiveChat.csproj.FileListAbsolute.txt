@@ -62,3 +62,5 @@ C:\Projects\LiveChat\LiveChat\bin\System.Web.WebPages.Deployment.xml
 C:\Projects\LiveChat\LiveChat\bin\System.Web.WebPages.Razor.xml
 C:\Projects\LiveChat\LiveChat\obj\Debug\MyDnn.Modules.Support.LiveChat.dll
 C:\Projects\LiveChat\LiveChat\obj\Debug\MyDnn.Modules.Support.LiveChat.pdb
+C:\Projects\LiveChat\LiveChat\bin\MyDnn.SignalRStartup.dll
+C:\Projects\LiveChat\LiveChat\bin\MyDnn.SignalRStartup.pdb

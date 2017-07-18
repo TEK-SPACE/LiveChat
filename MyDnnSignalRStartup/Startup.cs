@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNet.SignalR;
-using Microsoft.Owin;
+﻿using Microsoft.Owin;
 using MyDnn.SignalRStartup;
 using Owin;
-using System;
 
 
 [assembly: OwinStartup("MyDnnOwinStartupForSignalR", typeof(Startup))]

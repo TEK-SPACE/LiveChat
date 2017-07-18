@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.UI;
 using Microsoft.Web.Infrastructure.DynamicModuleHelper;
-using MyDnn.VisitorsOnline.App_Start;
+using MyDnn.VisitorsOnline;
 
 [assembly: PreApplicationStartMethod(typeof(PreApplicationStartCode), "Start")]
-namespace MyDnn.VisitorsOnline.App_Start
+namespace MyDnn.VisitorsOnline
 {
     public class PreApplicationStartCode
     {

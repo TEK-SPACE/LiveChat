@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.UI;
 using Microsoft.Web.Infrastructure.DynamicModuleHelper;
-using MyDnn.Modules.Support.LiveChat.App_Start;
+using MyDnn.Modules.Support.LiveChat;
 
 [assembly: PreApplicationStartMethod(typeof(PreApplicationStartCode), "Start")]
-namespace MyDnn.Modules.Support.LiveChat.App_Start
+namespace MyDnn.Modules.Support.LiveChat
 {
     public class PreApplicationStartCode
     {
@@ -33,7 +31,7 @@ namespace MyDnn.Modules.Support.LiveChat.App_Start
 
         #endregion
 
-        protected void context_PreRequestHandlerExecute(object sender, EventArgs e)
+        private void context_PreRequestHandlerExecute(object sender, EventArgs e)
         {
             try
             {
@@ -50,7 +48,7 @@ namespace MyDnn.Modules.Support.LiveChat.App_Start
             }
         }
 
-        protected void page_LoadComplete(object sender, EventArgs e)
+        private void page_LoadComplete(object sender, EventArgs e)
         {
             try
             {

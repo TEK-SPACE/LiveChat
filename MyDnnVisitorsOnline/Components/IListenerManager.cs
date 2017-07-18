@@ -1,8 +1,6 @@
 ﻿// Copyright (c) MyDnn Group. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 
-using System.Linq;
-using DotNetNuke.Collections;
 using System.Collections.Generic;
 using MyDnn.VisitorsOnline.Models;
 

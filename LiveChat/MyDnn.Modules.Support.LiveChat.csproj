@@ -596,6 +596,10 @@
     <Content Include="App_LocalResources\SharedResources.resx" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MyDnnSignalRStartup\MyDnn.SignalRStartup.csproj">
+      <Project>{b48f0d30-edbb-4082-8ad7-f5e88c699270}</Project>
+      <Name>MyDnn.SignalRStartup</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyDnnVisitorsOnline\MyDnn.VisitorsOnline.csproj">
       <Project>{aa9fe893-27c4-494a-9287-fe235acb9ebf}</Project>
       <Name>MyDnn.VisitorsOnline</Name>

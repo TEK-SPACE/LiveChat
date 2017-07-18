@@ -4,13 +4,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using DotNetNuke.Common.Utilities;
 using DotNetNuke.Data;
 using DotNetNuke.Framework;
 using MyDnn.Modules.Support.LiveChat.Models;
 using MyDnn.Modules.Support.LiveChat.ViewModels;
-using MyDnn.VisitorsOnline.Components;
 using DotNetNuke.Common;
 using MyDnn.VisitorsOnline.Api;
 
